@@ -8,39 +8,50 @@
 
     width: 100%;
     height: 150px;
-    background-color: rgb(181, 208, 248);
+    background-color: rgb(159, 164, 236);
+    text-align: center;
+    font-size: 60px;
+    color: rgb(79, 248, 169);
+    font-family:'Courier New', Courier, monospace;
 }
 .menu{
 
     width: 100%;
     height: 100px;
-    background-color: rgb(250, 184, 184);
+    background-color: rgb(199, 250, 157);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(252, 186, 169);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
 }
 .contenedor2{
 
     width: 100%;
-    height: 1200px;
-    background-color: rgb(210, 195, 252);
+    height: 40px;
+    background-color:rgb(248, 187, 167);
     display: flex;
+    text-align: center;
+    
 }
 .izquierdo{
 
     width: 20%;
-    height: 1200px;
-    background-color: rgb(196, 250, 186);
+    height: 90px;
+    background-color: rgb(252, 176, 229);
+    display: flex;
 }
 .centro{
 
-    width: 60%;
-    height: 1200px;
+    width: 100%;
+    height: 5000px;
     background-color: rgb(252, 176, 229);
 }
 .derecho{
 
     width: 20%;
     height: 1200px;
-    background-color: rgb(195, 250, 247);
+    background-color: rgb(252, 176, 229);
 }
 
 .tecnologia{ 
