@@ -11,7 +11,7 @@
     
     body{
     
-    background-image: url("imagen.3.jpg");
+   background-image: url(fondo.pj.jpg);
     
     background-repeat: no-repeat;
     
@@ -25,9 +25,9 @@
     
      
     
-    width: 190px;
-    
-    height: 190px;
+    width: 300px;
+     top: 300px;
+    height: 250px;
     
     border-radius: 10px;
     
@@ -37,7 +37,7 @@
     
     left: 180px;
     
-    background-image: url("medellin.jpeg");
+    background-image: url("segunda foto..png");
     
     }
     
