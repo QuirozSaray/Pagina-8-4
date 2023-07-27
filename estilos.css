@@ -20,9 +20,18 @@ body {
 }
 .ftecnologia{
 
-    background-image: url(fondotecno.jpg);
+    background-image: url(fondtecno.jpg);
 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+
+    background-size: cover;
+
+}
+
+.fsociales{
+    background-image: url(fondo13colo.jpg);
+
+    background-repeat:repeat;
 
     background-size: cover;
 
@@ -30,6 +39,11 @@ body {
 
 .bodyMatematicas{
     background-repeat: repeat;
+}
+
+.bodyReligión{
+    background-repeat: repeat;
+
 }
 
 
@@ -84,13 +98,14 @@ body {
 }
 
 .titulo{
-    margin-top: 10px;
+    margin-top: 6px;
     text-align: center;
 }
 
 .subtitulo{
-    margin: 20px auto;
+    margin: 10px auto;
     font-style: italic;
+    text-align: initial;
 }
 
 .titulo3{
@@ -99,7 +114,8 @@ body {
 
 .parrafo{
     line-height: 2;
-    text-align: center;
+    text-align:initial;
+    size: 20px;
 }
 
 .polinomios{
@@ -147,29 +163,52 @@ body {
     
     margin-right:5px;
     
-    background-image: url("medellin.jpeg");
+    background-image: url("");
     
     }
     
+    .imagensociales{
+        background-repeat: no-repeat;
     
+    float:left;
     
-    .textotecno{
+    height: 200px;
     
-    text-align: justify;
+    width: 260px;
     
-    color: azure;
+    margin-left: 5px;
     
-    font-size: 20px;
+    margin-right:5px;
     
+    background-image: url("")
+
+    }
     
-    
+    .contenedorTecnologia{
+        width: 90%;
+    background-color: rgb(154, 175, 245);
+    padding: 25px 20px;
+    margin: 0 auto;
     }
     
 .contenedorReligion{
     width: 90%;
     background-color:rgb(188, 125, 248);
     padding: 25px 20px;
+    margin: 0 auto
+}   
+
+.contenedorSociales{
+    width: 90%;
+    background-color: aquamarine;
+    padding: 25px 20px;
     margin: 0 auto;
 }
 
-    
+.contenedorBiologia{
+    width: 90%;
+    background-color:rgb(163, 163, 163);
+    padding: 25px 20px;
+    margin: 0 auto;
+
+}
