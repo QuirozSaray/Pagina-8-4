@@ -45,6 +45,12 @@ body {
     background-repeat: repeat;
 
 }
+.fbiologia{
+    background-image: url(fndbiologia.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
 
 
 
@@ -198,17 +204,32 @@ body {
     margin: 0 auto
 }   
 
-.contenedorSociales{
-    width: 90%;
-    background-color: aquamarine;
-    padding: 25px 20px;
-    margin: 0 auto;
-}
+
 
 .contenedorBiologia{
     width: 90%;
-    background-color:rgb(163, 163, 163);
-    padding: 25px 20px;
-    margin: 0 auto;
+    background-color:rgb(182, 186, 247);
+    padding: 13px 13px;
+    margin: 0 auto
+    
+}
 
+.tituloso{
+    margin-top: 3px;
+  
+    text-align: center;
+}
+
+.parrafoso{
+    line-height: 2;
+    text-align:center;
+    size: 10px;
+}
+
+.videoso{
+    text-align: center;
+}
+
+.audioso{
+    text-align: center;
 }
