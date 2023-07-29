@@ -13,11 +13,16 @@ body {
 
     background-image: url(fondo.pj.jpg);
 
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 
     background-size: cover;
 
 }
+
+.bodyingles{
+    background-repeat: repeat;
+}
+
 .ftecnologia{
 
     background-image: url(fondtecno.jpg);
@@ -103,6 +108,13 @@ body {
     margin: 0 auto;
 }
 
+.contenedorEtica{
+    width: 90%;
+    background-color:rgb(255, 103, 184);
+    padding: 25px 20px;
+    margin: 0 auto;
+
+}
 .titulo{
     margin-top: 6px;
     text-align: center;
@@ -199,12 +211,25 @@ body {
     
 .contenedorReligion{
     width: 90%;
-    background-color:rgb(188, 125, 248);
+    background-color:rgb(215, 177, 250);
     padding: 25px 20px;
     margin: 0 auto
 }   
 
+.contenedorSociales{
+    width: 90%;
+    background-color:rgb(252, 170, 170);
+    padding: 13px 13px;
+    margin: 0 auto
+}
 
+.contenedorIngles{
+    width: 90%;
+    background-color:rgb(163, 250, 163);
+    padding: 13px 13px;
+    margin: 0 auto
+
+}
 
 .contenedorBiologia{
     width: 90%;
@@ -232,4 +257,8 @@ body {
 
 .audioso{
     text-align: center;
+}
+
+.cuadro{
+    padding: 13px 13px;
 }
