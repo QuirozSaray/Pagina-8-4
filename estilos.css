@@ -125,6 +125,10 @@ body {
     font-style: italic;
     text-align: initial;
 }
+.subtitulo4{
+    
+    
+}
 
 .titulo3{
     margin: 20px auto;
@@ -157,7 +161,7 @@ body {
     
     position: absolute;
     
-    top: 410px;
+    top: 143px;
     
      
     
@@ -230,7 +234,13 @@ body {
     margin: 0 auto
 
 }
+.contenedoringles3{
+    width: 90%;
+    background-color:rgb(163, 250, 163);
+    padding: 13px 13px;
+    margin: 0 auto
 
+}
 .contenedorBiologia{
     width: 90%;
     background-color:rgb(182, 186, 247);
@@ -267,4 +277,7 @@ body {
     text-align:center;
     color:aquamarine;
 
+}
+.subtitulo3{
+    text-align: center;
 }
