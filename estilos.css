@@ -16,7 +16,7 @@ body {
     background-repeat: repeat;
 
     background-size: cover;
-
+    
 }
 
 .bodyingles{
@@ -63,9 +63,19 @@ body {
 
    display: flex;
    justify-content: center;
-   height: 400px;
+   height: 2px;
 }
+ 
+.contenedor-flex {
+justify-content: center;
+display: flex;
+align-items: center;
+height: 40%;
+}
+    
 
+
+    
 .imagen{
     border-radius: 50px;
 }
@@ -74,6 +84,7 @@ body {
 
     width: 100%;
     height: 230px;
+    
 
 
 
@@ -116,7 +127,7 @@ body {
 
 }
 .titulo{
-    margin-top: 6px;
+    margin-top: 1px;
     text-align: center;
 }
 
@@ -125,20 +136,69 @@ body {
     font-style: italic;
     text-align: initial;
 }
-.subtitulo4{
+
+.subtitulo3{
+    text-align:center;
+    size: 10px;
+    font-size: 25px;
+    color:rgb(23, 241, 23);
     
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+}
+.subtitulo4{
+ text-align: center;   
     
 }
 
 .titulo3{
     margin: 20px auto;
 }
+ 
+.titulo4{
+    text-align:center;
+    size: 10px;
+    font-size: 25px;
+    color:rgb(220, 255, 25);
+    
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+
+}
 
 .parrafo{
     line-height: 2;
-    text-align:initial;
-    size: 20px;
+    text-align:center;
+    size: 10px;
+    font-size: 25px;
 }
+
+.parrafo3{
+    
+    text-align:justify;
+    size: 10px;
+    font-size: 25px;
+    color:rgb(252, 0, 50);
+    
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+
+   
+}
+.parrafo4{
+    
+    text-align:justify;
+    size: 10px;
+    font-size: 25px;
+    color:rgb(255, 1, 52);
+    
+    background-color: rgba(3, 0, 0, 0.7); 
+    margin-bottom: 20px
+    
+}
+
+
+
 
 .polinomios{
     background-color: rgba(187, 0, 255, 0.182);
@@ -152,6 +212,10 @@ body {
 .imgnegra {
     width: 500px;
 }
+
+
+
+
 
 .contenido{
 
@@ -234,20 +298,21 @@ body {
     margin: 0 auto
 
 }
-.contenedoringles3{
-    width: 90%;
-    background-color:rgb(163, 250, 163);
-    padding: 13px 13px;
-    margin: 0 auto
 
-}
+
+
 .contenedorBiologia{
     width: 90%;
     background-color:rgb(182, 186, 247);
     padding: 13px 13px;
     margin: 0 auto
     
+
 }
+
+ .contenedormatematicas3{
+    top: 300px;
+ }
 
 .tituloso{
     margin-top: 3px;
@@ -276,8 +341,10 @@ body {
 .encabezado3{
     text-align:center;
     color:aquamarine;
+    font-size: 30px;
 
 }
 .subtitulo3{
     text-align: center;
+    
 }
